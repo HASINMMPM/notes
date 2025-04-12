@@ -1,5 +1,6 @@
 
 ​Unit testing is a crucial aspect of software development, ensuring that individual components of an application function correctly in isolation.
+Unit testing focuses on testing individual units or components of a software application in isolation.
 
 **most utilized JavaScript unit testing frameworks include:**
 1. **Jest**: Developed by Facebook, Jest is renowned for its ease of use, speed, and built-in functionalities, making it a preferred choice for many developers.​
@@ -48,3 +49,9 @@ ithinull we can add **it** or **test**
 ```
 - here we will add expect which is import from vitest
 - here **add** is our function after the **.toBe** what we will expect
+
+### Mock and Spy
+-  **`mock`** replaces a function/module’s implementation entirely.
+- **`spyOn`** observes a function’s behavior without changing it (unless you tell it to).
+- `vi.mock` to **isolate your code from external dependencies** by replacing their implementations.
+- 

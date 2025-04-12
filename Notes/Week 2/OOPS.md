@@ -2,6 +2,7 @@
 ##### Encapsulation (Data Hiding)
 Encapsulation means bundling data and methods within a class and restricting direct access to some of the object's properties.
 
+- constructor oru class nte first work akunnatha anne
 ```
 class Person {
   #age; // Private property (using # makes it inaccessible outside the class)
@@ -98,6 +99,8 @@ myDog.speak(); // Output: Buddy barks.
 ```
 >[!info]
 >**Why Inheritance?** It avoids duplicate code and promotes reusability.
+>extends use akkuka annel super() use cheyyannam just call parant class
+
 
 parent class ne superclass base class ennnum child class ne derived class ,extended class, subclass ennum ariyappedunnu
 
@@ -151,3 +154,4 @@ Using in method overloading and method overriding
 
 
 ---
+**static** use cheyyunnath athinte instance create akkathirikkan 
