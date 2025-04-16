@@ -54,4 +54,6 @@ ithinull we can add **it** or **test**
 -  **`mock`** replaces a function/module’s implementation entirely.
 - **`spyOn`** observes a function’s behavior without changing it (unless you tell it to).
 - `vi.mock` to **isolate your code from external dependencies** by replacing their implementations.
-- 
+
+---
+file path koduthal oro files ayi test cheyyam
