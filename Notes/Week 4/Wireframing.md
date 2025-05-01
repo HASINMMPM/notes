@@ -17,3 +17,7 @@ three type wireframe
 		- Low-fidelity wireframes are often called paper wireframes due to their simplicity.
  2. mid-fidelity wireframes
  3. low-fidelity wireframes.
+
+wireframil db il entha kodukkannam enntheerumanikkannam
+
+

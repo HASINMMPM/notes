@@ -51,3 +51,13 @@ I give this Prompt and I get this answer
 ```
 
 here we already give the details to ai about date and time and ai ref that and response from there
+
+|Key|Meaning|
+|---|---|
+|`model`|Which AI model to use|
+|`messages`|The conversation history and instructions|
+|`role`|Who said it: system/user/assistant|
+|`content`|The actual message text|
+|`temperature`|Creativity of the model’s response (0 = boring, 1+ = creative)|
+|`max_tokens`|Limit on how long the reply can be|
+|`stream`|Whether to stream the response in parts (`true`/`false`)|
