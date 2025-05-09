@@ -29,7 +29,7 @@
 2. create .dockerignore
 3. create docker image 
 ```
-docker build -t [IMAGE NAME] 
+docker build -t [IMAGE NAME] .
 ```
 4. run conteiner
 ```
@@ -37,6 +37,11 @@ docker run -p 8000:8000 [IMAGE NAME]
 ```
 - **First `8000` (host port)** — The port on **your machine** (e.g., localhost:8000).
 - **Second `8000` (container port)** — The port inside the **container** that your app listens on.
+
+if we change aby things in code it will not reflect because it will not change file in docker it only change in vs code. To  prevent that 
+```
+docker run -p 8000:8000 -v "$(pwd):/app" -v /app/node_modules [image name]
+```
 
 ### Commands
 
@@ -62,10 +67,10 @@ docker run -p 8000:8000 [IMAGE NAME]
 
 3. **Clean-Up Commands**
 
-|Command|Purpose|
-|---|---|
-|`docker system prune`|Remove all stopped containers, unused networks, and dangling images|
-|`docker volume prune`|Remove unused volumes|
+| Command               | Purpose                                                             |
+| --------------------- | ------------------------------------------------------------------- |
+| `docker system prune` | Remove all stopped containers, unused networks, and dangling images |
+| `docker volume prune` | Remove unused volumes                                               |
 
 4. Volume & File Commands
 
@@ -76,3 +81,11 @@ docker run -p 8000:8000 [IMAGE NAME]
 |`docker volume ls`|List all volumes|
 |`docker volume rm <volume-name>`|Delete a specific volume|
 
+##### Instruction
+
+1. Start with an OS
+2. install node
+3. copy all  files
+4. Run app
+
+Distro less in Environment in  dockerfile 
